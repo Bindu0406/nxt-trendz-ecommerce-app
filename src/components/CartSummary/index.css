@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .cart-summary-card {
+    align-self: flex-end;
+    width: 33%;
+  }
+}
+
+.total-price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  line-height: 1.5;
+}
+
+.total-order-text {
+  font-size: 18px;
+  color: #616e7c;
+  font-weight: 600;
+}
+
+.total-order-price {
+  color: #171f46;
+  margin: 0;
+}
+
+.item-count {
+  color: #616e7c;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.checkout-btn {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
